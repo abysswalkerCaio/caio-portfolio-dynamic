@@ -5,5 +5,6 @@
     <Header />
     <slot />
     <Footer />
+    <ThemeButton />
   </div>
 </template>
