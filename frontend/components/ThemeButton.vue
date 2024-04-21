@@ -1,6 +1,9 @@
 <template>
   <ClientOnly>
-    <button class="fixed p-6 bottom-0 text-xl" @click="isDark = !isDark">
+    <button
+      class="fixed bottom-0 text-xl ml-6 mb-6 hover:text-lilly-costa-900 dark:hover:text-lilly-costa-200 transition ease-in-out"
+      @click="isDark = !isDark"
+    >
       <font-awesome-icon :icon="isDark ? 'moon' : 'sun'" />
     </button>
   </ClientOnly>

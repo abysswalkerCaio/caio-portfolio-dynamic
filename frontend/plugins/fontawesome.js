@@ -9,6 +9,8 @@ import {
   faMobileScreenButton,
   faMoon,
   faSun,
+  faBarsStaggered,
+  faXmark,
 } from "@fortawesome/free-solid-svg-icons";
 
 config.autoAddCss = false;
@@ -20,7 +22,9 @@ library.add(
   faFolderTree,
   faMobileScreenButton,
   faMoon,
-  faSun
+  faSun,
+  faBarsStaggered,
+  faXmark
 );
 
 export default defineNuxtPlugin((nuxtApp) => {
