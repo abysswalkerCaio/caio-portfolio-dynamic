@@ -17,10 +17,6 @@
           class="h-full object-contain"
         />
       </ClientOnly>
-      <!-- <span
-        class="h-full flex items-center font-sans font-bold text-lg md:text-xl"
-        >CAIO COSTA</span
-      > -->
     </div>
     <Navbar :links="links" />
   </header>

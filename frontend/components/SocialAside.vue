@@ -1,6 +1,6 @@
 <template>
   <aside
-    class="max-[767px]:hidden absolute flex flex-col w-16 h-fit top-1/2 -translate-y-1/2 bg-zinc-300 dark:bg-zinc-900 shadow-md dark:shadow-zinc-800"
+    class="max-[767px]:hidden rounded-r absolute flex flex-col w-16 h-fit top-1/2 -translate-y-1/2 bg-zinc-300 dark:bg-zinc-900 shadow-md dark:shadow-zinc-800"
   >
     <li
       v-for="link in links"
