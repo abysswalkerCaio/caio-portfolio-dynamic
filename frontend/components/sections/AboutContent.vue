@@ -24,7 +24,6 @@
       <SectionsButtonSectionsPage :content="'CONTACT'" :to="'#contact'" />
     </div>
     <div class="flex flex-col flex-1 gap-4">
-      <HeadingsThirdHeader :content="'My Skills'" />
       <HeadingsFourthHeader :content="'Hard Skills'" />
       <div class="flex flex-wrap gap-4 select-none mb-4">
         <div

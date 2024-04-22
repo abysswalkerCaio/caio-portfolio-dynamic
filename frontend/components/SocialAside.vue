@@ -4,12 +4,12 @@
   >
     <li
       v-for="link in links"
-      class="flex flex-col items-center text-3xl text-zinc-800 dark:text-zinc-200 p-2"
+      class="flex text-3xl text-zinc-800 dark:text-zinc-200 p-2"
     >
       <a
         :href="link.to"
         target="_blank"
-        class="p-3 text-center hover:bg-lilly-costa-200 dark:hover:bg-lilly-costa-900 transition ease-in-out rounded-lg"
+        class="p-3 w-full flex justify-center hover:bg-lilly-costa-200 dark:hover:bg-lilly-costa-900 transition ease-in-out rounded-lg"
       >
         <font-awesome-icon :icon="link.icon" />
       </a>
