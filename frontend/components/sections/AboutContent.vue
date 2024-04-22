@@ -5,21 +5,29 @@
       <p
         class="leading-loose max-w-[500px] md:max-w-full text-zinc-800 dark:text-zinc-200"
       >
-        As an experienced Fullstack Developer, I excel in creating and managing
-        dynamic Web Applications, guiding projects from start to finish. With
-        expertise across the entire development process, from front-end design
-        to back-end implementation, I ensure smooth functionality and superior
-        user experiences. Feel free to browse through my portfolio below to see
-        the quality of my work firsthand and my impact on the digital sphere.
+        As an experienced <span class="font-bold">Fullstack Developer</span>, I
+        excel in creating and managing dynamic
+        <span class="font-bold">Web Applications</span>, guiding projects from
+        start to finish. With expertise across the entire development process,
+        from <span class="font-bold">front-end</span> design to
+        <span class="font-bold">back-end</span> implementation, I ensure smooth
+        functionality and superior user experiences. Feel free to browse through
+        my <span class="font-bold">portfolio</span> below to see the quality of
+        my <span class="font-bold">work</span> firsthand and my
+        <span class="font-bold">impact</span> on the digital sphere.
       </p>
       <p
         class="leading-loose max-w-[500px] md:max-w-full text-zinc-800 dark:text-zinc-200 mb-6"
       >
-        I'm actively looking for career opportunities to apply my skills, learn,
-        and grow professionally. If you have a suitable position available, I'd
-        love to discuss how I can contribute to your team. Please don't hesitate
-        to contact me—I'm eager to explore potential collaborations and advance
-        my career.
+        I'm actively looking for
+        <span class="font-bold">career opportunities</span> to apply my
+        <span class="font-bold">skills</span>,
+        <span class="font-bold">learn</span>, and
+        <span class="font-bold">grow professionally</span>. If you have a
+        suitable position available, I'd love to discuss how I can
+        <span class="font-bold">contribute</span> to your team. Please don't
+        hesitate to contact me—I'm eager to explore potential
+        <span class="font-bold">collaborations</span> and advance my career.
       </p>
       <SectionsButtonSectionsPage :content="'CONTACT'" :to="'#contact'" />
     </div>
