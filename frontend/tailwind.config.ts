@@ -14,7 +14,6 @@ export default {
     extend: {
       fontFamily: {
         roboto: ["Roboto", "sans-serif"],
-        "roboto-mono": ["Roboto", "monospace"],
       },
       colors: {
         "lilly-costa": {

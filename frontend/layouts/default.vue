@@ -8,3 +8,17 @@
     <ThemeButton />
   </div>
 </template>
+
+<style>
+html.light {
+  ::selection {
+    background: #ffbbbb;
+  }
+}
+
+html.dark {
+  ::selection {
+    background: #560000;
+  }
+}
+</style>

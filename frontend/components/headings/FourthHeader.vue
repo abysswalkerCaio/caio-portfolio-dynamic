@@ -1,9 +1,9 @@
 <template>
-  <h1
-    class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-lilly-costa-950 dark:text-lilly-costa-100 font-sans font-bold break-all"
+  <h4
+    class="text-xl sm:text-2xl md:text-3xl mb-4 text-lilly-costa-950 dark:text-lilly-costa-100 font-sans font-bold break-all"
   >
     {{ content }}
-  </h1>
+  </h4>
 </template>
 
 <script setup lang="ts">

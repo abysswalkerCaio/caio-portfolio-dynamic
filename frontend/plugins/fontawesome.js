@@ -11,6 +11,7 @@ import {
   faSun,
   faBarsStaggered,
   faXmark,
+  faArrowDown,
 } from "@fortawesome/free-solid-svg-icons";
 
 config.autoAddCss = false;
@@ -24,7 +25,8 @@ library.add(
   faMoon,
   faSun,
   faBarsStaggered,
-  faXmark
+  faXmark,
+  faArrowDown
 );
 
 export default defineNuxtPlugin((nuxtApp) => {
