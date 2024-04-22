@@ -29,7 +29,7 @@
       <div class="flex flex-wrap gap-4 select-none mb-4">
         <div
           v-for="skills in hardSkills"
-          class="p-3 bg-zinc-300 dark:bg-zinc-900 text-zinc-800 dark:text-zinc-200 rounded hover:scale-125 transition ease-in-out duration-300"
+          class="p-3 shadow-md dark:shadow-zinc-800 bg-zinc-300 dark:bg-zinc-900 text-zinc-800 dark:text-zinc-200 rounded hover:scale-125 transition ease-in-out duration-300"
         >
           {{ skills }}
         </div>
@@ -38,7 +38,7 @@
       <div class="flex flex-wrap gap-4 select-none">
         <div
           v-for="skills in softSkills"
-          class="p-3 bg-zinc-300 dark:bg-zinc-900 text-zinc-800 dark:text-zinc-200 rounded hover:scale-125 transition ease-in-out duration-300"
+          class="p-3 shadow-md dark:shadow-zinc-800 bg-zinc-300 dark:bg-zinc-900 text-zinc-800 dark:text-zinc-200 rounded hover:scale-125 transition ease-in-out duration-300"
         >
           {{ skills }}
         </div>

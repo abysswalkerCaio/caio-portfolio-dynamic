@@ -3,7 +3,7 @@
     <div class="flex items-center gap-10 h-full max-[767px]:hidden">
       <li
         v-for="link in links"
-        class="h-full flex items-center border-b-4 border-transparent hover:border-b-lilly-costa-950 dark:hover:border-b-lilly-costa-100 transition ease-in-out font-semibold"
+        class="h-full flex items-center hover:text-lilly-costa-900 dark:hover:text-lilly-costa-200 transition ease-in-out font-semibold"
       >
         <a :href="link.to" class="flex items-center gap-2 h-full">
           <font-awesome-icon :icon="link.icon" /> {{ link.content }}
@@ -20,11 +20,11 @@
       <Transition>
         <ul
           v-if="mobileNavbar"
-          class="absolute flex flex-col justify-end left-0 w-full divide-y divide-zinc-300 bg-zinc-200 dark:divide-zinc-800 dark:bg-zinc-900"
+          class="shadow-md absolute flex flex-col justify-end left-0 w-full divide-y divide-zinc-300 bg-zinc-200 dark:divide-zinc-800 dark:bg-zinc-900"
         >
           <li
             v-for="link in links"
-            class="transition ease-in-out font-semibold list-none w-full"
+            class="transition ease-in-out font-semibold list-none w-full hover:text-lilly-costa-900 hover:dark:text-lilly-costa-200"
           >
             <a
               :href="link.to"

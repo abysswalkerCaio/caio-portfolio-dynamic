@@ -1,10 +1,10 @@
 <template>
   <header
-    class="fixed flex justify-between h-16 sm:h-20 md:h-24 lg:h-28 items-center pl-6 md:px-12 bg-zinc-200 dark:bg-zinc-900 w-full z-10"
+    class="fixed flex justify-between h-16 sm:h-20 md:h-24 lg:h-28 items-center pl-6 md:px-12 bg-zinc-200 shadow-md dark:shadow-zinc-800 dark:bg-zinc-900 w-full z-10"
   >
     <div class="flex items-center h-full">
       <span
-        class="h-full border-b-0 md:border-b-4 md:border-b-transparent flex items-center font-sans font-bold text-lg md:text-xl"
+        class="h-full flex items-center font-sans font-bold text-lg md:text-xl"
         >CAIO COSTA</span
       >
     </div>

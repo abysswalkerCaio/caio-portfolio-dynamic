@@ -2,6 +2,7 @@
 import { library, config } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { fas } from "@fortawesome/free-solid-svg-icons";
+
 import {
   faHouse,
   faUser,
@@ -14,7 +15,11 @@ import {
   faArrowDown,
 } from "@fortawesome/free-solid-svg-icons";
 
-config.autoAddCss = false;
+import {
+  faLinkedin,
+  faGithub,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
 
 library.add(
   fas,
@@ -26,8 +31,13 @@ library.add(
   faSun,
   faBarsStaggered,
   faXmark,
-  faArrowDown
+  faArrowDown,
+  faLinkedin,
+  faGithub,
+  faYoutube
 );
+
+config.autoAddCss = false;
 
 export default defineNuxtPlugin((nuxtApp) => {
   nuxtApp.vueApp.component("font-awesome-icon", FontAwesomeIcon, {});
