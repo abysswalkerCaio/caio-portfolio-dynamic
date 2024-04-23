@@ -20,4 +20,10 @@ export default defineNuxtConfig({
     ],
   },
   modules: ["@nuxt/ui"],
+
+  runtimeConfig: {
+    public: {
+      baseUrl: process.env.API_URL,
+    },
+  },
 });
