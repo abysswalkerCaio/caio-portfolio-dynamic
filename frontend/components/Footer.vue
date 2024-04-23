@@ -19,7 +19,7 @@
       <div class="flex flex-col">
         <HeadingsFifthHeader :content="'SOCIAL'" />
         <div class="flex gap-5 text-2xl text-zinc-800 dark:text-zinc-200">
-          <li v-for="link in social" class="list-none">
+          <li v-for="link in links" class="list-none">
             <a
               :href="link.to"
               target="_blank"
@@ -31,24 +31,13 @@
       </div>
     </div>
     <span class="text-center text-sm text-zinc-800 dark:text-zinc-200"
-      >© Copyright 2024. Made by Caio Costa</span
+      >© Copyright 2024. Made by <b>Caio Costa</b></span
     >
   </footer>
 </template>
 
 <script setup lang="ts">
-const social = [
-  {
-    to: "https://www.linkedin.com/in/caio-costa-dev/",
-    icon: "fa-brands fa-linkedin",
-  },
-  {
-    to: "https://github.com/abysswalkerCaio",
-    icon: "fa-brands fa-github",
-  },
-  {
-    to: " https://www.youtube.com/@gaiuskuste",
-    icon: "fa-brands fa-youtube",
-  },
-];
+import type { TProps } from "../types/social";
+
+const props = defineProps<TProps>();
 </script>

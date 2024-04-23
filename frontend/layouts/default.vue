@@ -4,7 +4,7 @@
   >
     <Header />
     <slot />
-    <Footer />
+    <Footer :links="links" />
     <SocialAside :links="links" />
     <ThemeButton />
   </div>

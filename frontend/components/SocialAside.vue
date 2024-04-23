@@ -18,7 +18,7 @@
 </template>
 
 <script setup lang="ts">
-import type { TProps } from "../types/aside";
+import type { TProps } from "../types/social";
 
 const props = defineProps<TProps>();
 </script>
