@@ -24,11 +24,13 @@ const request = (method: TMethod, url: string, body?: object) => {
 
   const reqOptions: any = {
     method,
+    headers: {
+      "Content-Type": "application/json",
+    },
     server: false,
   };
 
   if (body) {
-    reqOptions.headers["Content-Type"] = "application/json";
     reqOptions.body = JSON.stringify(body);
   }
 

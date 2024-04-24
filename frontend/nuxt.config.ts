@@ -19,8 +19,10 @@ export default defineNuxtConfig({
       "@fortawesome/vue-fontawesome",
     ],
   },
-  modules: ["@nuxt/ui"],
-
+  modules: ["@nuxt/ui", "@pinia/nuxt", "@pinia-plugin-persistedstate/nuxt"],
+  pinia: {
+    storesDirs: ["./stores/**"],
+  },
   runtimeConfig: {
     public: {
       baseUrl: process.env.API_URL,
