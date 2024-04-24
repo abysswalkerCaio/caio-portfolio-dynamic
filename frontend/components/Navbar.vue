@@ -23,6 +23,7 @@
           class="shadow-md absolute flex flex-col justify-end left-0 w-full divide-y divide-zinc-300 bg-zinc-200 dark:divide-zinc-800 dark:bg-zinc-900"
         >
           <li
+            @click="mobileNavbar = false"
             v-for="link in links"
             class="transition ease-in-out font-semibold list-none w-full hover:text-lilly-costa-900 hover:dark:text-lilly-costa-200"
           >
@@ -51,6 +52,10 @@ const mobileNavbar = computed({
     isOpen.value = !isOpen.value;
   },
 });
+
+function doStuff(whatever: any, event: any) {
+  console.log(whatever, event);
+}
 
 const props = defineProps<TProps>();
 </script>
