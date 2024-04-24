@@ -5,7 +5,7 @@
   >
     <HeadingsPrimaryHeader :content="'Hello, I\'m Caio Costa'" />
     <p
-      class="md:w-2/4 md:text-xl py-8 pb-6 text-center text-zinc-800 dark:text-zinc-200"
+      class="w-full md:w-2/4 md:text-xl py-8 pb-6 text-center text-zinc-800 dark:text-zinc-200"
     >
       I'm a fullstack developer who not only masters the secrets of both
       back-end and front-end, but also translates them into digital experiences

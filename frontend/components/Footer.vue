@@ -18,7 +18,7 @@
       </div>
       <div class="flex flex-col">
         <HeadingsFifthHeader :content="'SOCIAL'" />
-        <div class="flex gap-5 text-2xl text-zinc-800 dark:text-zinc-200">
+        <div class="flex  flex-wrap  gap-5 text-2xl text-zinc-800 dark:text-zinc-200">
           <li v-for="link in links" class="list-none">
             <a
               :href="link.to"
