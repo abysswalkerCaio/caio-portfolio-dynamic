@@ -40,7 +40,7 @@
         v-model="contactForm.description"
       />
     </div>
-    <ContactFormButton :content="'Submit'" :request-body="valueBody" />
+    <ContactFormButton :content="'SUBMIT'" :request-body="valueBody" />
   </form>
 </template>
 

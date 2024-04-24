@@ -13,9 +13,6 @@
       and technical excellence.
     </p>
     <SectionsButtonSectionsPage :content="'PROJECTS'" :to="'#projects'" />
-    <font-awesome-icon
-      :icon="'arrow-down'"
-      class="absolute bottom-0 mb-20 text-3xl fa-bounce"
-    />
+    <GoToAboutArrow :to="'#about'" />
   </section>
 </template>
