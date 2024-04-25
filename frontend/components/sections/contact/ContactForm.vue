@@ -54,7 +54,7 @@
           type="text"
           id="description"
           name="description"
-          class="resize-y rounded-r p-4 max-h-80 h-32 bg-zinc-300 dark:bg-zinc-800 placeholder:text-zinc-500 focus:outline-none w-full"
+          class="resize-y rounded-r p-4 max-h-80 h-32 min-h-14 bg-zinc-300 dark:bg-zinc-800 placeholder:text-zinc-500 focus:outline-none w-full"
           placeholder="Your description..."
           maxlength="255"
           v-model="contactForm.description"
