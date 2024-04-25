@@ -13,6 +13,9 @@ import {
   faBarsStaggered,
   faXmark,
   faArrowDown,
+  faAddressCard,
+  faEnvelope,
+  faPenToSquare,
 } from "@fortawesome/free-solid-svg-icons";
 
 import {
@@ -34,7 +37,10 @@ library.add(
   faArrowDown,
   faLinkedin,
   faGithub,
-  faYoutube
+  faYoutube,
+  faAddressCard,
+  faEnvelope,
+  faPenToSquare
 );
 
 config.autoAddCss = false;
