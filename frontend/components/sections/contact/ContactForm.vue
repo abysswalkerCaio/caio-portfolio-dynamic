@@ -40,7 +40,7 @@
         v-model="contactForm.description"
       />
     </div>
-    <ContactFormButton :content="'SUBMIT'" :request-body="valueBody" />
+    <ContactFormButton :content="'SUBMIT'" :request-body="requestBody" />
   </form>
 </template>
 
@@ -49,11 +49,5 @@ import ContactFormButton from "./ContactFormButton.vue";
 
 const contactForm = useContactFormStore();
 
-const requestBody = ref({
-  name: contactForm.name,
-  email: contactForm.email,
-  description: contactForm.description,
-});
-
-const valueBody = requestBody.value;
+const requestBody = ref(contactForm.$state)
 </script>
