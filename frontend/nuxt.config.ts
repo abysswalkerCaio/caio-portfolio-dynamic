@@ -5,6 +5,9 @@ export default defineNuxtConfig({
     "~/assets/css/main.css",
     "@fortawesome/fontawesome-svg-core/styles.css",
   ],
+  tailwindcss: {
+    configPath: "~/tailwind.config.ts",
+  },
   postcss: {
     plugins: {
       tailwindcss: {},
@@ -19,7 +22,12 @@ export default defineNuxtConfig({
       "@fortawesome/vue-fontawesome",
     ],
   },
-  modules: ["@nuxt/ui", "@pinia/nuxt", "@pinia-plugin-persistedstate/nuxt"],
+  modules: [
+    "@nuxt/ui",
+    "@pinia/nuxt",
+    "@pinia-plugin-persistedstate/nuxt",
+    "@vee-validate/nuxt",
+  ],
   pinia: {
     storesDirs: ["./stores/**"],
   },

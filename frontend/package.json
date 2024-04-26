@@ -16,6 +16,8 @@
     "@fortawesome/vue-fontawesome": "^3.0.6",
     "@nuxt/ui": "^2.15.2",
     "@pinia/nuxt": "^0.5.1",
+    "@vee-validate/nuxt": "^4.12.6",
+    "@vee-validate/yup": "^4.12.6",
     "nuxt": "^3.11.2",
     "pinia": "^2.1.7",
     "vue": "^3.4.21",

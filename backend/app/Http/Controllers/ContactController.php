@@ -34,7 +34,14 @@ class ContactController extends Controller
 
             return response()->json($model, Response::HTTP_CREATED);
         } catch(\Throwable $th) {
-            return response()->json($th->getMessage(), Response::HTTP_INTERNAL_SERVER_ERROR);
+            switch($th->getCode()) {
+                case 23000:
+                    return response()->json('This email has already attempted to contact. Please try again later.', Response::HTTP_INTERNAL_SERVER_ERROR);
+                    break;
+                default:
+                    return response()->json($th->getMessage(), Response::HTTP_INTERNAL_SERVER_ERROR);
+                    break;
+            }
         }
     }
 
@@ -48,7 +55,7 @@ class ContactController extends Controller
 
             return response()->json($model);
         } catch(\Throwable $th) {
-            return response()->json(th->getMessage(), Response::HTTP_INTERNAL_SERVER_ERROR);
+            return response()->json($th->getMessage(), Response::HTTP_INTERNAL_SERVER_ERROR);
         }
     }
 
@@ -62,7 +69,7 @@ class ContactController extends Controller
 
             return response()->noContent();
         } catch(\Throwable $th) {
-            return response()->json(th->getMessage(), Response::HTTP_INTERNAL_SERVER_ERROR);
+            return response()->json($th->getMessage(), Response::HTTP_INTERNAL_SERVER_ERROR);
         }
     }
 
@@ -77,7 +84,7 @@ class ContactController extends Controller
 
             return response()->noContent();
         } catch(\Throwable $th) {
-            return response()->json(th->getMessage(), Response::HTTP_INTERNAL_SERVER_ERROR);
+            return response()->json($th->getMessage(), Response::HTTP_INTERNAL_SERVER_ERROR);
         }
     }
 }
