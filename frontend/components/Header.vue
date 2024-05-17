@@ -19,6 +19,7 @@
       </ClientOnly>
     </div>
     <Navbar :links="links" />
+    <ScrollProgress />
   </header>
 </template>
 
