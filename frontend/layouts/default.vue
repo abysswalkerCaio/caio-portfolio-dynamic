@@ -6,7 +6,6 @@
     <slot />
     <Footer :links="links" />
     <SocialAside :links="links" />
-    <ThemeButton />
   </div>
 </template>
 

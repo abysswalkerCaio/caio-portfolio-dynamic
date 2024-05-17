@@ -18,7 +18,9 @@
       </div>
       <div class="flex flex-col">
         <HeadingsFifthHeader :content="'SOCIAL'" />
-        <div class="flex  flex-wrap  gap-5 text-2xl text-zinc-800 dark:text-zinc-200">
+        <div
+          class="flex flex-wrap gap-5 text-2xl text-zinc-800 dark:text-zinc-200"
+        >
           <li v-for="link in links" class="list-none">
             <a
               :href="link.to"
@@ -30,9 +32,12 @@
         </div>
       </div>
     </div>
-    <span class="text-center text-sm text-zinc-800 dark:text-zinc-200"
-      >© Copyright 2024. Made by <b>Caio Costa</b></span
-    >
+    <div class="flex flex-col sm:flex-row justify-between items-center gap-5">
+      <span class="text-center text-sm text-zinc-800 dark:text-zinc-200"
+        >© Copyright 2024. Made by <b>Caio Costa</b></span
+      >
+      <ThemeButton />
+    </div>
   </footer>
 </template>
 

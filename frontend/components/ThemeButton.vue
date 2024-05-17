@@ -1,7 +1,7 @@
 <template>
   <ClientOnly>
     <button
-      class="fixed right-0 bottom-0 text-xl p-6 hover:text-lilly-costa-900 dark:hover:text-lilly-costa-200 transition ease-in-out"
+      class="text-xl hover:text-lilly-costa-900 dark:hover:text-lilly-costa-200 transition ease-in-out"
       @click="isDark = !isDark"
     >
       <font-awesome-icon :icon="isDark ? 'moon' : 'sun'" />
