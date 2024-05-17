@@ -89,8 +89,6 @@ const contactForm = useContactFormStore();
 const requestBody = ref(contactForm.$state);
 const toast = useToast();
 
-const { errorMessage, meta, value } = useField("description");
-
 const schema = object({
   name: string().required("Name field is required!").max(255),
   email: string()

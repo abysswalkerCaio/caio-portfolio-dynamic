@@ -6,13 +6,18 @@
 </template>
 
 <script setup lang="ts">
-window.addEventListener("scroll", function () {
-  const scrollableHeight =
-    document.documentElement.scrollHeight - window.innerHeight;
-  const scrolled = window.scrollY;
+onMounted(() => {
   const progressBar: HTMLElement | null =
     document.getElementById("scroll-progress");
-  const progress = (scrolled / scrollableHeight) * 100;
-  progressBar!.style.width = progress + "%";
+
+  if (progressBar) {
+    window.addEventListener("scroll", function () {
+      const scrollableHeight =
+        document.documentElement.scrollHeight - window.innerHeight;
+      const scrolled = window.scrollY;
+      const progress = (scrolled / scrollableHeight) * 100;
+      progressBar!.style.width = progress + "%";
+    });
+  }
 });
 </script>
