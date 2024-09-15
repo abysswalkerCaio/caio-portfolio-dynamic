@@ -5,13 +5,12 @@
       <p
         class="leading-loose max-w-[500px] md:max-w-full text-zinc-800 dark:text-zinc-200"
       >
-        As an experienced <b>Fullstack Developer</b>, I excel in creating and
-        managing dynamic <b>Web Applications</b>, guiding projects from start to
-        finish. With expertise across the entire development process, from
-        <b>front-end</b> design to <b>back-end</b> implementation, I ensure
-        smooth functionality and superior user experiences. Feel free to browse
-        through my <b>portfolio</b> below to see the quality of my
-        <b>work</b> firsthand and my <b>impact</b> on the digital sphere.
+        As an experienced <b>Frontend Developer</b>, who also has experience
+        with backend and databases, I excel in creating and managing dynamic
+        <b>Web Applications</b> ensuring smooth functionality and superior user
+        experiences. Feel free to browse through my <b>portfolio</b> below to
+        see the quality of my <b>work</b> firsthand and my <b>impact</b> on the
+        digital sphere.
       </p>
       <p
         class="leading-loose max-w-[500px] md:max-w-full text-zinc-800 dark:text-zinc-200 mb-6"

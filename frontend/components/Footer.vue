@@ -10,10 +10,11 @@
         <p
           class="md:max-w-[500px] text-sm sm:text-base text-zinc-800 dark:text-zinc-200"
         >
-          I'm a fullstack developer who not only masters the secrets of both
-          back-end and front-end, but also translates them into digital
-          experiences that transcend expectations, bringing every pixel to life
-          with innovation and technical excellence.
+          I'm a frontend developer with experience in backend and databases, I
+          integrate different layers of technology to create digital experiences
+          that exceed expectations. Combining innovation and technical
+          excellence, I bring every detail to life, from the interface to the
+          inner workings.
         </p>
       </div>
       <div class="flex flex-col">

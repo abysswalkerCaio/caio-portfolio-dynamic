@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-12 flex-col w-full max-w-[1300px]">
+  <div class="mt-12 flex flex-col gap-12 w-full max-w-[1300px]">
     <div
       class="flex flex-col min-[1100px]:flex-row min-[1100px]:justify-around gap-10 items-center"
     >
@@ -13,10 +13,10 @@
         </ClientOnly>
       </div>
       <div
-        class="flex flex-col justify-around items-center min-[1100px]:items-start gap-6 mt-12 min-[1100px]:mt-0"
+        class="flex flex-col justify-around items-center min-[1100px]:items-start gap-6"
       >
         <div class="flex flex-col items-center min-[1100px]:items-start gap-6">
-          <HeadingsFourthHeader :content="'Formlilly'" />
+          <HeadingsFourthHeader :content="'FormLilly'" />
           <p
             class="leading-loose text-zinc-800 dark:text-zinc-200 max-w-[80%] min-[1100px]:max-w-full"
           >
@@ -38,7 +38,7 @@
       </div>
     </div>
     <div
-      class="flex flex-col min-[1100px]:flex-row min-[1100px]:justify-around gap-10 mt-12 items-center"
+      class="flex flex-col min-[1100px]:flex-row min-[1100px]:justify-around gap-10 items-center"
     >
       <div class="flex-none max-w-[704px] max-h-[396px]">
         <ClientOnly>
@@ -50,7 +50,7 @@
         </ClientOnly>
       </div>
       <div
-        class="flex flex-col justify-around items-center min-[1100px]:items-start gap-6 mt-12 min-[1100px]:mt-0"
+        class="flex flex-col justify-around items-center min-[1100px]:items-start gap-6"
       >
         <div class="flex flex-col items-center min-[1100px]:items-start gap-6">
           <HeadingsFourthHeader :content="'Anime World v1'" />
