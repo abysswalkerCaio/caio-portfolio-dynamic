@@ -10,7 +10,7 @@ useHead({
   titleTemplate: (titleChunk) => {
     return titleChunk
       ? `${titleChunk} - Caio Costa's Portfolio`
-      : "Caio Costa | Caio Dev | Fullstack Developer";
+      : "Caio Costa | Caio Dev | Frontend Developer";
   },
   meta: [
     {
@@ -20,7 +20,7 @@ useHead({
     {
       name: "keywords",
       content:
-        "Fullstack Developer, Back-end, Front-end, Hard Skills, Soft Skills, HTML, CSS, JavaScript, TypeScript, Vue.js, Nuxt.js, PHP, Laravel, MySQL, Microsoft Windows, Linux",
+        "Frontend Developer, Back-end, Front-end, Hard Skills, Soft Skills, HTML, CSS, JavaScript, TypeScript, Vue.js, Nuxt.js, PHP, Laravel, MySQL, Microsoft Windows, Linux",
     },
     {
       name: "autor",
