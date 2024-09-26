@@ -53,7 +53,7 @@
         class="flex flex-col justify-around items-center min-[1100px]:items-start gap-6"
       >
         <div class="flex flex-col items-center min-[1100px]:items-start gap-6">
-          <HeadingsFourthHeader :content="'Anime World v1'" />
+          <HeadingsFourthHeader :content="'Anime World'" />
           <p
             class="leading-loose text-zinc-800 dark:text-zinc-200 max-w-[80%] min-[1100px]:max-w-full"
           >
