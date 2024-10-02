@@ -101,7 +101,7 @@ const schema = object({
 function createMessage(values: object) {
   fetchApi
     .post("/contact", values)
-    .then((response) => {
+    .then(() => {
       toastSuccess();
     })
     .catch((error) => {

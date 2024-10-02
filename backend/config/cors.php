@@ -17,17 +17,17 @@ return [
 
     'paths' => ['api/*', 'sanctum/csrf-cookie'],
 
-    'allowed_methods' => ['*'],
+    'allowed_methods' => ['GET', 'POST', 'PUT', 'DELETE'],
 
-    'allowed_origins' => ['*'],
+    'allowed_origins' => ['http://localhost:3000', 'https://www.caio-costa-portfolio.com.br'],
 
-    'allowed_origins_patterns' => [],
+    'allowed_origins_patterns' => ['/(.*)\.com.br/'],
 
-    'allowed_headers' => ['*'],
+    'allowed_headers' => ['content-type', 'accept', 'x-custom-header'],
 
-    'exposed_headers' => [],
+    'exposed_headers' => ['x-custom-response-header'],
 
-    'max_age' => 0,
+    'max_age' => 60,
 
     'supports_credentials' => false,
 
